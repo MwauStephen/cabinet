@@ -1,0 +1,30 @@
+package ArrrayDel;
+
+public class Array {
+	
+	//create an array
+	private int[] items;
+	private int count;
+	
+	//create a constructor with a parameter to specify its length
+	public Array(int length) {
+		items=new int[length];
+	}
+
+	//insert items to the array
+	public void insert(int item) {
+		//add new item at the end of the array
+		items[count]=item;
+		count++;
+	}
+	
+	
+	//create the print method
+	public void print() {
+		for(int i=0; i<count ;i++) {
+			System.out.println(items[i]);
+		}
+			
+	}
+	
+}

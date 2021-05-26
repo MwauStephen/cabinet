@@ -1,0 +1,41 @@
+package LinkedList;
+
+public class LinkedList {
+
+private class Node{
+private int value;
+private Node next;
+
+//create a custom constructor for the node class
+public Node(int value) {
+	this.value=value;
+}
+}
+
+	private Node first;
+	private Node last;
+	
+	
+	//addFirst
+	//addLast
+	public void addLast(int item) {
+	Node node=new Node(item);	
+	
+	//check if the list is empty 
+	if(first==null) {
+		first=node;
+		last=node;
+	}
+	//or not empty
+	else {
+		last.next=node;
+		last=node;
+	}
+
+	}
+	//deleteFirst
+	//deleteLast
+	//contains
+	//indexOf
+
+}

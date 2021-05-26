@@ -1,0 +1,10 @@
+package Array;
+
+public class ArraysOperation {
+
+	public static void main(String[] args) {
+		int[] grades=new int[10];
+		System.out.println(grades);
+	}
+
+}

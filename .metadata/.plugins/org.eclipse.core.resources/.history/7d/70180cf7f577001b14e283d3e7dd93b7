@@ -1,0 +1,23 @@
+package pattern;
+
+public class PatternTriangle {
+
+	public static void main(String[] args) {
+		int  i=6;//i for rows and j for columns.rows denote the number of rows you want to print
+		int j=6;
+		int row=6;
+		
+		//outer loop for rows
+		for(i=0;i<row;i++) {
+			
+		}
+			//inner loop for columns
+			for(j=0;j<=i;i++) {
+				//print the stars 
+				System.out.print("*");
+		}
+			//throws the cursor on a new line after printing each line 
+	System.out.println();
+
+	}
+}

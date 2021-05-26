@@ -1,0 +1,37 @@
+//create a java login form  program using GUI that has a label for username,password and a button for
+//logging in that displays a success
+//message upon successful login of the user
+package LoginFormGUI;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class LoginFormGUI {
+
+	public static void main(String[] args) {
+	
+		JPanel panel=new JPanel(); 
+		//create a frame
+		JFrame frame=new JFrame();
+		frame.setSize(100,100);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+		frame.add(panel);
+		
+		//set the panel layout to null
+		panel.setLayout(null);
+		
+		//create a label
+		JLabel label=new JLabel("UserName:");
+		label.setBounds(10,20,80,25);
+		
+		//add the label to the panel
+		panel.add(label);
+		
+		
+	
+
+	}
+
+}

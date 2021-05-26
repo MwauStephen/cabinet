@@ -1,0 +1,18 @@
+package Operator;
+
+public class Boperators {
+
+	public static void main(String[] args) {
+	int temperature=12;
+	boolean isWarm=temperature<20 &&temperature<30;
+	
+	//or operator
+	boolean hasHighIncome=true;
+	boolean hasGoodCredit=true;
+	boolean isElligible=hasHighIncome||hasGoodCredit;
+	System.out.println(isWarm);
+	System.out.println(isElligible);
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package GettersSetters;
+
+public class GettersSetters {
+
+	public static void main(String[] args) {
+		UserName name= new UserName();//an object
+		name.Firstname="kylestevens";
+		System.out.println();
+	}
+
+}

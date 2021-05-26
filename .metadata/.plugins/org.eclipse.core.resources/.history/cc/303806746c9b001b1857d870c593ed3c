@@ -1,0 +1,11 @@
+package GettersSetters;
+
+public class UserName {
+	public String Firstname;
+	public String Secondname;
+	
+	//create a mtehod getter
+	public void getFirstname() {
+
+}
+}

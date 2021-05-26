@@ -1,0 +1,50 @@
+package FirstGUI;
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class GUI {
+
+	//create a constructor
+	public GUI(){
+		//create a java frame
+		JFrame frame=new JFrame();
+		
+		//add a button
+		JButton button=new JButton();
+		
+		//create a panel
+		JPanel panel=new JPanel();
+		
+		//add items to the panel
+		panel.setBorder(BorderFactory.createEmptyBorder(30,30,10,30));
+		panel.setLayout(new GridLayout(0,1));
+		panel.add(button);
+		
+		//add panel to the frame
+		frame.add(panel, BorderLayout.CENTER);
+		
+		//set what happens when the frame is closed
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		//set the title of the window
+		frame.setTitle("Our  FIRST GUI");
+		
+		//set the window to match certain size
+		frame.pack();
+		
+		//set window to be visible and focus
+		frame.setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		new GUI();
+
+	}
+
+}

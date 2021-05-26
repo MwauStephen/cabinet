@@ -1,0 +1,16 @@
+package ARRAY1;
+
+import java.util.Arrays;
+
+public class arrayoperation {
+
+	public static void main(String[] args) {
+		int [] numbers=new int[5];
+		int[] number= {1,5,3,4,1,2};
+		System.out.println(Arrays.toString(numbers));
+		Arrays.sort(number);
+		System.out.println(Arrays.toString(number));
+		
+	}
+
+}

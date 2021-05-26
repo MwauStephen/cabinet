@@ -1,0 +1,59 @@
+//write a program that prompts the user to enter two numbers and siplays the maximum of the two numbers
+package MethodOverload2;
+import java.util.Scanner;
+public class MethodOverload2 {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		
+		System.out.println("Enter the first number:");
+		int number1=scanner.nextInt();
+		
+		System.out.println("Enter the second number:");
+		int number2=scanner.nextInt();
+		
+		//statement with int parameters
+		System.out.println("The maximum of "+number1+" "+"and"+" "+number2+" "+"is"+max(number1,number2));
+						
+		
+		System.out.println("Enter the first number:");
+		double numb1=scanner.nextDouble();
+		
+		System.out.println("Enter the first number:");
+		double numb2=scanner.nextDouble();
+		
+		
+		System.out.println("Enter the third number:");
+		double numb3=scanner.nextDouble();
+		
+		
+		
+
+		//statement with double parameters
+		System.out.println("The maximum of "+numb1+" "+"and"+" "+numb2+" "+"is"+max(numb1,numb2));
+		
+		//statement with three double parameters
+		System.out.println("The maximum of "+numb1+" "+"and"+" "+numb2+" "+"is"+max(numb1,numb2,numb3));
+	}
+	
+//create the method for int parameters
+	public static int max(int num1,int num2) {
+		if(num1<num2) 
+			return num2;
+		else
+			return num1;
+	}
+	
+	//create a method for double parameters
+	public static double max(double num1,double num2) {
+		if(num1<num2)
+			return num2;
+		else
+			return num1;
+	}
+	
+	//create a method for double with three parameters
+	public static double max(double num1,double num2,double num3) {
+		return max(max(num1,num2),num3);
+	}
+
+}

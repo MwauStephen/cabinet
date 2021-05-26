@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Polymorph.Bank&apos; to &apos;States&apos;&#x0D;&#x0A;- Original project: &apos;Polymorphism&apos;&#x0D;&#x0A;- Original element: &apos;Polymorph.Bank&apos;&#x0D;&#x0A;- Renamed element: &apos;Polymorph.States&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Bank&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Polymorph{Bank.java[Bank" matchStrategy="1" name="States" qualified="false" references="true" similarDeclarations="true" stamp="1618324752716" textual="false" version="1.0"/>
+</session>

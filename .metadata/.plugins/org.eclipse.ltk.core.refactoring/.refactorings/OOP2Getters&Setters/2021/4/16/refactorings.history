@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;GettersSetters.Colors&apos; to &apos;UserName&apos;&#x0D;&#x0A;- Original project: &apos;OOP2Getters&amp;Setters&apos;&#x0D;&#x0A;- Original element: &apos;GettersSetters.Colors&apos;&#x0D;&#x0A;- Renamed element: &apos;GettersSetters.UserName&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Colors&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;GettersSetters{Colors.java[Colors" matchStrategy="1" name="UserName" qualified="false" references="true" similarDeclarations="false" stamp="1618216916079" textual="false" version="1.0"/>
+</session>
